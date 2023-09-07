@@ -1,0 +1,14 @@
+{
+    "autoload": {
+        "psr-4": {
+            "MyApp\\": "src",
+            "Core\\": "core",
+            "Models\\": "models",
+            "Controllers\\": "controllers"
+        }
+    },
+    "require": {
+        "fakerphp/faker": "^1.23",
+        "cboden/ratchet": "^0.4.4"
+    }
+}
